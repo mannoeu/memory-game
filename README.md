@@ -7,6 +7,10 @@
   <img src="./src/assets/snake-game-printscreen.png" width="350">
 </p>
 
+# Play in Browser
+
+[Clicking here](https://memory-game-snk.netlify.app/) you can play, enjoy :D
+
 # How to clone project
 
 ### 1. Clone repository
