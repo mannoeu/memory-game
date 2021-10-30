@@ -1,6 +1,6 @@
 <p align="center">⭐⭐⭐⭐⭐</p>
 <h1 align="center">Memory Game</h1>
-<h4 align="center"><a href="https://lakscastro.github.io/snake-game"><code>Play in Browser</code></a></h4>
+<h4 align="center"><a href="https://memory-game-snk.netlify.app/"><code>Play in Browser</code></a></h4>
 <p align="center">An implementation of a memory game using React</p>
 
 <p align="center">
