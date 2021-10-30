@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { cards, embaralhar } from "./consts";
+import { cards, shuffleArray } from "./consts";
 import ModalFinish from "./components/ModalFinish";
 import "./App.css";
 
@@ -7,7 +7,7 @@ function App() {
   const [photos, setPhotos] = React.useState([]);
 
   useEffect(() => {
-    setPhotos(embaralhar(cards));
+    setPhotos(shuffleArray(cards));
   }, []);
 
   const [selectFirst, setSelectFirst] = React.useState(null);
@@ -66,7 +66,7 @@ function App() {
       });
     });
 
-    setPhotos(embaralhar(array));
+    setPhotos(shuffleArray(array));
   }, []);
 
   return (

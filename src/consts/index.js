@@ -11,18 +11,18 @@ import Zeke from "../database/zeke.webp";
 import Yelena from "../database/yelena.webp";
 import Hange from "../database/hange.webp";
 
-export function embaralhar(array) {
-  var indice_atual = array.length,
-    valor_temporario,
-    indice_aleatorio;
+export function shuffleArray(array = []) {
+  var actual = array.length,
+    temp,
+    random;
 
-  while (0 !== indice_atual) {
-    indice_aleatorio = Math.floor(Math.random() * indice_atual);
-    indice_atual -= 1;
+  while (0 !== actual) {
+    random = Math.floor(Math.random() * actual);
+    actual -= 1;
 
-    valor_temporario = array[indice_atual];
-    array[indice_atual] = array[indice_aleatorio];
-    array[indice_aleatorio] = valor_temporario;
+    temp = array[actual];
+    array[actual] = array[random];
+    array[random] = temp;
   }
 
   return array;
