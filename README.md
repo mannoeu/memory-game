@@ -4,7 +4,7 @@
 <p align="center">An implementation of a memory game using React</p>
 
 <p align="center">
-  <img src="./src/assets/snake-game-printscreen.png" width="350">
+  <img src="./src/assets/printscreen.webp" width="350">
 </p>
 
 # Play in Browser
